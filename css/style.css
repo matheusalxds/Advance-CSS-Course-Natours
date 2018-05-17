@@ -31,6 +31,69 @@ body {
   url(../img/hero.jpg);
   background-size: cover;
   background-position: top;
-
+  position: relative; /* Every 'position' needs the initial point to calc the coordinates to position the element on board */
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+/* To use the position absolute on logo-box, was added position relative on header cuz
+  .header .logo-box
+ */
+
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.logo {
+  height: 35px;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading-primary {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 35px;
+}
+
+.heading-primary-sub {
+  /* display: block means the element will use all the width */
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 17.4px;
+}
+
+.classAbsolute {
+  position: absolute;
+}
+
+.classRelative {
+  position: relative;
+}
+
+.class01 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background-color: black;
+}
+
+.class02 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: red;
 }
