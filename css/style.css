@@ -75,25 +75,3 @@ body {
   font-weight: 700;
   letter-spacing: 17.4px;
 }
-
-.classAbsolute {
-  position: absolute;
-}
-
-.classRelative {
-  position: relative;
-}
-
-.class01 {
-  position: relative;
-  top: 20px;
-  left: 20px;
-  background-color: black;
-}
-
-.class02 {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  background-color: red;
-}
