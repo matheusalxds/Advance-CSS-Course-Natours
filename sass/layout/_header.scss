@@ -8,6 +8,7 @@
   background-size: cover;
   background-position: top;
   position: relative; /* Every 'position' needs the initial point to calc the coordinates to position the element on board */
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   &__logo-box {
