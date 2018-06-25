@@ -361,7 +361,10 @@
     </main>
     <footer class="footer">
       <div class="footer__logo-box">
-        <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
+        <picture class="footer__logo">
+          <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" media="(max-width: 37.5em)">
+          <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Full logo">
+        </picture>
       </div>
       <div class="row">
         <div class="col-1-of-2">
@@ -400,14 +403,17 @@
         <div class="popup__right">
           <a href="#section-tours" class="popup__close">&times;</a>
           <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
-          <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read this terms before booking</h3>
+          <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read this terms before
+            booking</h3>
           <p class="popup__text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam commodi cum, deserunt dolorem
-            ea eius enim eos explicabo facere harum hic modi molestiae nam nemo neque pariatur praesentium veritatis?Lorem
+            ea eius enim eos explicabo facere harum hic modi molestiae nam nemo neque pariatur praesentium
+            veritatis?Lorem
             ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam commodi cum, deserunt dolorem
             ea eius enim eos explicabo facere harum hic modi molestiae nam nemo neque pariatur praesentium veritatis?
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam commodi cum, deserunt dolorem
-            ea eius enim eos explicabo facere harum hic modi molestiae nam nemo neque pariatur praesentium veritatis?Lorem
+            ea eius enim eos explicabo facere harum hic modi molestiae nam nemo neque pariatur praesentium
+            veritatis?Lorem
             ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam commodi cum, deserunt dolorem
           </p>
           <a href="#" class="btn btn--green">Book now</a>
